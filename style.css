@@ -1,0 +1,40 @@
+navbar-brand {
+    font-size: 28px;
+    height: auto;
+    letter-spacing: 1px;
+    padding: 0;
+    float: none;
+    margin-left: 0;
+}
+
+
+img-fluid{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+navbarnav{
+    align-items: end;
+    justify-content: right;
+}
+.counter-container{
+    flex-direction: column;
+    margin: 100px;
+}
+.counter{
+    font-size: 60px;
+    color: red;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    
+}
+@media (max-width: 580px){
+   
+.Navbar-brand{
+    font-size: 1000px;
+}
+}
